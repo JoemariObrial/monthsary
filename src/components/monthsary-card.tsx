@@ -8,14 +8,12 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import * as Dialog from "@radix-ui/react-dialog";
 
 interface MonthsaryCardProps {
-  months: number;
   message: string;
   partnerName: string;
   musicSrc: string;
 }
 
 export default function MonthsaryCard({
-  months,
   message,
   partnerName,
   musicSrc,
@@ -66,7 +64,7 @@ export default function MonthsaryCard({
       <div className="bg-white rounded-lg shadow-lg p-8 max-w-md w-full">
         <div className="text-center">
           <h2 className="text-3xl font-bold text-pink-600 mb-4">
-            Happy {months} Monthsary!
+            Happy Monthsary!
           </h2>
           <p className="text-gray-700 mb-6">{message}</p>
           <p className="text-lg font-semibold text-purple-600 mb-8">
