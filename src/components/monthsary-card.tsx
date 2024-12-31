@@ -74,8 +74,8 @@ export default function MonthsaryCard({
                 </Dialog.Title>
                 <Carousel
                   showArrows={true}
-                  showStatus={false}
-                  showThumbs={false}
+                  showStatus={true}
+                  showThumbs={true}
                   infiniteLoop={true}
                   autoPlay={true}
                   interval={3000}
